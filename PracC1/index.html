@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@5/dark.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Gestión de almanaque</title>
+</head>
+<body>
+    <div class="container">
+        <input id="name" type="text" placeholder="Name">
+        <input id="age" type="number" placeholder="Age">
+        <input id="instrument" type="text" placeholder="Instrument">
+        <button id="almanaque-btn">Add</button>
+        <input type="number" id="searchQuery" placeholder="Search by Age">
+        <button id="search-btn">Search</button>
+        <button id="find-min-btn">Find Min</button>
+        <button id="find-max-btn">Find Max</button>
+        <!-- Nuevo botón para imprimir todos los nodos -->
+        <button id="print-all-btn">Print All</button>
+    </div>
+
+    <script type="module" src="./src/controllers/script.js"></script>
+</body>
+</html>
+
